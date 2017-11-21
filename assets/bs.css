@@ -18,7 +18,7 @@ body {
 
 #main, .howto {
   background-color: #EAEDE5;
-  border: solid 1px #ccc;
+  border: solid 1px blue;
   border-radius: 3px;
   color: #404040;
   margin: 20px 0;
