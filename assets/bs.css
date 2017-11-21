@@ -1,0 +1,36 @@
+header, footer {
+  background-color: #99A682;
+  border: solid 1px black;
+  border-radius: 3px;
+}
+
+footer {
+  padding: 10px;
+  font-size: 10pt;
+}
+
+body {
+  font-family: 'OpenSans', 'Droid Sans',  sans-serif;
+  /*font-family: 'Raleway', sans-serif;*/
+  font-size: 14pt;
+  padding: 10px;
+}
+
+#main, .howto {
+  background-color: #EAEDE5;
+  border: solid 1px #ccc;
+  border-radius: 3px;
+  color: #404040;
+  margin: 20px 0;
+  padding: 10px;
+  font-size: 14pt;
+}
+
+.code {
+  font-family: 'DroidSansMono', 'Courier New', monospace;
+  font-size: 12pt;
+  background-color: black;
+  padding: 10px;
+  color: #a4cf59;
+  width: 7  00px;
+}
