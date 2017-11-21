@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Binaryshed.com</title>
+	<link rel="stylesheet" href="assets/normalize.css"  type="text/css">
+	<link rel="stylesheet" href="assets/bs.css">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Droid+Sans|Raleway|Cousine" rel="stylesheet"> -->
+</head>
+<body>
+	<header>
+		<nav>
+		  <ul>
+		    <li><a href="index.html">Home</a></li>
+		    <li><a href="contact.html">Contact</a></li>
+		    <li><a href="about.html">About</a></li>
+		  </ul>
+		</nav>
+	</header>
+	<section id="main">
+		<h1>Deploying static Apache pages via git</h1>
+		<p>A journey through standing up a website using git.</p>
+		<p>Environment:</p>
+		<ul>
+			<li>AWS Ubuntu Linux host</li>
+			<li>Apache2</li>
+			<li>git</li>
+			<li>Dev machine running MacOS Sierra</li>
+		</ul>
+	</section>
+	<article class="howto">
+		<title>Preparing git</title>
+		<h2>Prepare Apache</h2>
+			<p>Give user called 'ubuntu' write permissions to the /var/www/html/ directory
+				which is the web root and where git will write the code to</p>
+		<div class="code">
+			<p>sudo adduser ubuntu www-data</br>
+			Adding user 'ubuntu' to group 'www-data' ...</br>
+			Adding user ubuntu to group www-data</br>
+			Done.</br></br>
+			sudo chown -R www-data:www-data /var/www/html/</br>
+			sudo chmod -R g+rwX /var/www/html/</br>
+			</p>
+		</div>
+	</article>
+	<footer>
+		&#9400; 2017 Binaryshed.com
+	</footer>
+</body>
+</html>
